@@ -3,6 +3,10 @@
 ## **Overview**
 This project is a fully functional end-to-end data streaming pipeline that ingests, processes, and stores real-time user data using a modern data stack. It encompasses the entire pipeline, from data ingestion to processing and storage, leveraging a powerful technology stack that includes **Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra**. The entire system is containerized with Docker to ensure seamless deployment and scalability.
 
+## **Architecture**
+![Data engineering architecture](https://github.com/user-attachments/assets/c3140ba7-03ab-40d1-b58a-7f05eb22936e)
+
+
 ## **Pipeline Components**
 1. **Data Ingestion (Apache Airflow)**
    - Fetches user data from `randomuser.me API`.
