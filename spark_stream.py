@@ -1,5 +1,4 @@
 import logging
-
 from cassandra.cluster import Cluster
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col
@@ -12,7 +11,7 @@ def create_keyspace(session):
         WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'};
     """)
 
-    print("Keyspace created successfully!")
+    print("Successfully created Keyspace!")
 
 
 def create_table(session):
